@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:background="#000040">
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="1dp">
+        
+        <Button android:id="@+id/bnfront"
+            
+            android:background="@drawable/btn_front"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_margin="1dp" />
+
+
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="1dp">
+        <Button android:id="@+id/bnleft"
+            android:background="@drawable/btn_left"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_margin="15dp" />
+        <Button android:id="@+id/bnright"
+            android:background="@drawable/btn_right"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_margin="15dp" />
+
+    </LinearLayout>
+
+    <LinearLayout android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_margin="1dp">
+
+               <Button android:id="@+id/bnall"
+            android:background="@drawable/btn_eject"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="1dp" />
+        
+        <Button android:id="@+id/bnback"
+            android:background="@drawable/btn_back"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_margin="1dp" />
+        
+               <Button android:id="@+id/bnplay"
+            android:background="@drawable/btn_play"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:layout_margin="1dp" />
+
+    </LinearLayout>
+</LinearLayout>
