@@ -14,7 +14,8 @@ import at.abraxas.amarino.Amarino;
 public class SealActivity extends Activity implements OnClickListener{
 private static final String TAG = "SEAL";
 
-	private static final String DEVICE_ADDRESS = "07:12:04:13:30:04";
+	//private static final String DEVICE_ADDRESS = "07:12:04:13:30:04"; //MJKDZ linvor
+	private static final String DEVICE_ADDRESS = "00:15:FF:F3:CD:4E"; //YFRobot
 	int red=1;
     Button bnFront;
     Button bnBack;
